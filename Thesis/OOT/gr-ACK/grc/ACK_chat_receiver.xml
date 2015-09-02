@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<block>
+  <name>Chat Receiver1</name>
+  <key>ACK_chat_receiver1</key>
+  <category>ACK</category>
+  <import>import ACK</import>
+  <make>ACK.chat_receiver1()</make>
+  <sink>
+    <name>in</name>
+    <type>message</type>
+  </sink>
+  <source>
+    <name>acknowledge</name>
+    <type>message</type>
+  </source>
+</block>
